@@ -12,7 +12,7 @@ namespace GK
 {
     public partial class Form2 : Form
     {
-        public delegate void MyDel(String LSH, string txt);
+        public delegate void MyDel(string LSH, string txt);
         public MyDel d { get; set; }
         private QLSV bll = new QLSV();
         public string MSSV { get; set; }    

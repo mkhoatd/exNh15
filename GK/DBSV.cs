@@ -22,8 +22,9 @@ namespace GK
             }
             private set { }
         }
+        public int a;
 
-        public DataTable DTSV { get; set; }
+        public DataTable DTSV;
         public DBSV()
         {
             DTSV = new DataTable();
